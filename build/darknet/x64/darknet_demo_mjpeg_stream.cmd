@@ -1,7 +1,3 @@
-rem Run this file and then open URL in Chrome/Firefox: rem http://localhost:8090
-rem Or open: http://ip-address:8090
-
-darknet.exe detector demo cfg/coco.data cfg/yolov3.cfg yolov3.weights test.mp4 -i 0 -mjpeg_port 8090 -dont_show -ext_output
-
-
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:5319191f828c2ca4d825d26afb133363b00a4e23944f4076e4ab6f572381349e
+size 249

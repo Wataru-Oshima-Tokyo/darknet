@@ -1,34 +1,3 @@
-#ifndef LIST_H
-#define LIST_H
-
-typedef struct node{
-    void *val;
-    struct node *next;
-    struct node *prev;
-} node;
-
-typedef struct list{
-    int size;
-    node *front;
-    node *back;
-} list;
-
-#ifdef __cplusplus
-extern "C" {
-#endif
-list *make_list();
-int list_find(list *l, void *val);
-
-void list_insert(list *, void *);
-
-void **list_to_array(list *l);
-
-void free_list_val(list *l);
-void free_list(list *l);
-void free_list_contents(list *l);
-void free_list_contents_kvp(list *l);
-
-#ifdef __cplusplus
-}
-#endif
-#endif
+version https://git-lfs.github.com/spec/v1
+oid sha256:6f53c4e17e6981da6cdb79d583db9131f4fdf8f2747e1b0e872fea22e8cc798a
+size 522

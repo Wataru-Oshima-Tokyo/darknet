@@ -1,17 +1,3 @@
-#!/bin/bash
-
-#wget http://www.image-net.org/challenges/LSVRC/2012/nnoupb/ILSVRC2012_img_train.tar
-#mkdir -p ILSVRC2012_img_train
-#tar --force-local -xf ILSVRC2012_img_train.tar -C ILSVRC2012_img_train
-
-wd=`pwd`
-
-for f in ILSVRC2012_img_train/*.tar;
-do
-name=$(echo "$f" | cut -f 1 -d '.')
-mkdir "${wd}/${name}"
-tar --force-local -xf "${wd}/${f}" -C "${wd}/${name}"
-done
-
-#find "${wd}/ILSVRC2012_img_train" -name \*.JPEG > imagenet1k.train.list
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:3ce7c674b110b0dbf53d1de53bee903213ab3c30a1fc4a449155883aabc51ea6
+size 444

@@ -1,6 +1,3 @@
-
-
-./darknet detector demo ./cfg/coco.data ./cfg/yolov4.cfg ./yolov4.weights test50.mp4 -i 0 -thresh 0.25
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:79eb4ca9edcc2bd01534b96aa446f390d68f01830f02837efd133e0bb29767e0
+size 108

@@ -1,19 +1,3 @@
-echo Run install_cygwin.cmd before:
-
-
-c:\cygwin64\bin\wget https://pjreddie.com/media/files/cifar.tgz
-
-c:\cygwin64\bin\gzip -d "%CD:\=/%/cifar.tgz"
-
-c:\cygwin64\bin\tar --force-local -xvf "%CD:\=/%/cifar.tar"
-
-c:\cygwin64\bin\cat "%CD:\=/%/labels.txt"
-
-
-c:\cygwin64\bin\find "%CD:\=/%/cifar/train" -name \*.png > "%CD:\=/%/cifar/train.list"
-
-c:\cygwin64\bin\find "%CD:\=/%/cifar/test" -name \*.png > "%CD:\=/%/cifar/test.list"
-
-
-
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:c325dff9cfc65913872a522a5a63da988b55d87944f90a1dffa57b46c0cc36da
+size 435

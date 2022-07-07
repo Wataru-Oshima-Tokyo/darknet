@@ -1,8 +1,3 @@
-classes=1000
-train  = /data/imagenet/imagenet1k.train.list
-valid  = /data/imagenet/imagenet1k.valid.list
-backup = /home/pjreddie/backup/
-labels = data/imagenet.labels.list
-names  = data/imagenet.shortnames.list
-top=5
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e987509b4fe3eb1129d65207ffba22733fb0373073eaa9180e000d727402d1c3
+size 218

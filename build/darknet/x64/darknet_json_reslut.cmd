@@ -1,3 +1,3 @@
-darknet.exe detector test cfg/coco.data cfg/yolov3.cfg yolov3.weights -ext_output -dont_show -out result.json < data/train.txt
-
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:45acfac2dc06b2c836e3ae4969b16234eca9baa51f028acc44ae823ec05e80d2
+size 133

@@ -1,5 +1,3 @@
-#!/bin/bash
-# Usage:
-# wget http://pjreddie.com/media/files/peek.weights
-# scripts/gen_tactic.sh < data/goal.txt
-./darknet rnn generatetactic cfg/gru.cfg peek.weights 2>/dev/null
+version https://git-lfs.github.com/spec/v1
+oid sha256:10fc22365f79ca35ad4f056be341c81417c1d38a91d475dbc41e74bb1c3b8b33
+size 179

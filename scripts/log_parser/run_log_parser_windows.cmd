@@ -1,6 +1,3 @@
-C:\Python27\Scripts\pip install numpy
-C:\Python27\Scripts\pip install matplotlib
-
-C:\Python27\python.exe log_parser.py --source-dir ./ --save-dir ./ --log-file test.log --show true
-
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:a615101123537b4782f23b9ae7bc3afbe0c3f5a8903416260c01a21149dcf408
+size 187

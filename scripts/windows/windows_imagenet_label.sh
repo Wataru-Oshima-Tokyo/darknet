@@ -1,16 +1,3 @@
-#!/bin/bash
-
-mkdir -p labelled
-wd=`pwd`
-
-for f in val/*.xml;
-do
-label=`grep -m1 "<name>" $f | grep -oP '<name>\K[^<]*'`
-im=`echo $f | sed 's/val/imgs/; s/xml/JPEG/'`
-out=`echo $im | sed 's/JPEG/'${label}'.JPEG/; s/imgs/labelled/'`
-mv ${wd}/$im ${wd}/$out
-#ln -s ${wd}/$im ${wd}/$out
-done
-
-#find ${wd}/labelled -name \*.JPEG > inet.val.list
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:f1579622d40e1f901c11fff41804a8502f5d1a4f1b4bcffaedfc771f24163226
+size 341

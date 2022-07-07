@@ -1,8 +1,3 @@
-
-rem darknet.exe detector test cfg/voc.data cfg/yolov2-voc.cfg yolo-voc.weights 009460.jpg
-
-
-darknet.exe detector test cfg/voc.data cfg/yolov2-voc.cfg yolo-voc.weights -i 0 -thresh 0.24 dog.jpg
-
-
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:418459a92f2c8aa4b6aae4c5be211c4ad596cbcafd0a9888d803e680afeae289
+size 201

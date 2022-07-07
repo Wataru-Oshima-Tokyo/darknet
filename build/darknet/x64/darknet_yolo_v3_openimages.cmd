@@ -1,8 +1,3 @@
-
-darknet.exe detector test cfg/openimages.data cfg/yolov3-openimages.cfg yolov3-openimages.weights -i 0 -thresh 0.25 dog.jpg -ext_output
-
-
-
-darknet.exe detector demo cfg/openimages.data cfg/yolov3-openimages.cfg yolov3-openimages.weights -i 0 -thresh 0.25 street1k.mp4 -ext_output
-
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:d1ab4207852fc5d85ab869ef57dedffa86eca1ba6cf6e0ae6f5ce47a8074f8c9
+size 287

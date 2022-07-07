@@ -1,6 +1,3 @@
-darknet.exe classifier predict cfg/imagenet1k.data cfg/densenet201.cfg densenet201.weights
-
-
-pause
-
-REM Download weights for DenseNet201 and ResNet50 by this link: https://pjreddie.com/darknet/imagenet/
+version https://git-lfs.github.com/spec/v1
+oid sha256:8b3c27587e11851163cee861b710a853b8f41bc888d6fbebeb7c4034904773cf
+size 202

@@ -1,11 +1,3 @@
-# Download for Android phone mjpeg-stream: IP Webcam / Smart WebCam
-#
-# Smart WebCam - preferably: https://play.google.com/store/apps/details?id=com.acontech.android.SmartWebCam
-# IP Webcam: https://play.google.com/store/apps/details?id=com.pas.webcam
-#
-# Replace the address below, on shown in the phone application
-
-darknet.exe detector demo cfg/coco.data cfg/yolov2.cfg yolov2.weights http://192.168.0.80:8080/video?dummy=param.mjpg -i 0
-
-
-pause
+version https://git-lfs.github.com/spec/v1
+oid sha256:a703db2442e5f5d57c7022c5415413425490316a7086d7291d55baa6b9d8b9e9
+size 448

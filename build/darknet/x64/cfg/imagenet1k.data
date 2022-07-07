@@ -1,9 +1,3 @@
-classes=1000
-train  = data/imagenet1k.train.list
-#train  = data/inet.val.list
-valid  = data/inet.val.list
-backup = backup
-labels = data/imagenet.labels.list
-names  = data/imagenet.shortnames.list
-top=5
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:71af53929ed83a8d66f49492322e8c174be76301be24751ce84004a13ab98bac
+size 203

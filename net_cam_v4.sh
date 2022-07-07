@@ -1,6 +1,3 @@
-#rm test_dnn_out.avi
-
-./darknet detector demo ./cfg/coco.data ./cfg/yolov4.cfg ./yolov4.weights rtsp://admin:admin12345@192.168.0.228:554 -i 0 -thresh 0.25
-
-
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:7c7a5e315f88f57aead6749d9317d78bec6cad06f0ec2b9e1d08bc665e86ebf6
+size 159
